@@ -116,3 +116,47 @@ header {
      background-color: rgb(195, 10, 103);
      color: khaki;
  }
+
+
+
+ @media (max-width:800px) {
+    .bigbottom {
+        padding: 1% 2%;
+        width: 50%;
+        display: flex;
+        flex-direction:column;
+        align-content: center;
+        }
+    
+    .bigbox img {
+    width: 95%;
+     }
+}
+
+@media (max-width:500px) {
+    .big {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bigbottom {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2 {
+     text-align: center;
+    }
+
+    .picture{
+        width: 30%;
+        height: 90%;
+    }
+    .box {
+        width:100% ;
+        height: 210px;
+        padding: 1%;
+    }
+
+}
